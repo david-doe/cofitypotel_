@@ -1,0 +1,8 @@
+# Données du cours : non publiées
+donnees/*
+!donnees/LISEZMOI.md
+
+# Fichiers de travail
+.ipynb_checkpoints/
+__pycache__/
+~$*

@@ -1,0 +1,27 @@
+		measure Observations = COUNTROWS(conseillers_trimestres)
+			formatString: #,0
+
+		measure Conseillers = DISTINCTCOUNT(conseillers_trimestres[code_op])
+			formatString: #,0
+
+		measure '% bons vendeurs' = AVERAGE(conseillers_trimestres[bon_vendeur])
+			formatString: 0.0%
+
+		measure 'Score moyen' = AVERAGE(conseillers_trimestres[score])
+			formatString: 0.00
+
+		measure '% HML' = DIVIDE(CALCULATE(COUNTROWS(conseillers_trimestres), conseillers_trimestres[metier] = "HML"), COUNTROWS(conseillers_trimestres))
+			formatString: 0.0%
+
+		measure 'Augmentations par jour' = AVERAGE(conseillers_trimestres[aug_fl_nb_j])
+			formatString: 0.00
+
+		measure 'CA par jour' = AVERAGE(conseillers_trimestres[ca_total_j])
+			formatString: #,0
+
+		measure 'Part de sortants' = AVERAGE(conseillers_trimestres[part_sortant_conv_w])
+			formatString: 0.0%
+
+		measure 'Appels pris par jour' = AVERAGE(conseillers_trimestres[appels_pris_j_w])
+			formatString: 0.0
+

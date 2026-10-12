@@ -1,0 +1,53 @@
+Groupe;indicateur;indice
+G1 — Relanceurs intensifs;Appels prés/j;137,0
+G2 — Actifs qualitatifs;Appels prés/j;121,0
+G3 — Spécialistes sortants;Appels prés/j;87,0
+G4 — Actifs standard;Appels prés/j;90,0
+G1 — Relanceurs intensifs;Appels pris/j;132,0
+G2 — Actifs qualitatifs;Appels pris/j;123,0
+G3 — Spécialistes sortants;Appels pris/j;85,0
+G4 — Actifs standard;Appels pris/j;90,0
+G1 — Relanceurs intensifs;Dispo/j;130,0
+G2 — Actifs qualitatifs;Dispo/j;121,0
+G3 — Spécialistes sortants;Dispo/j;99,0
+G4 — Actifs standard;Dispo/j;87,0
+G1 — Relanceurs intensifs;Conv ent/j;147,0
+G2 — Actifs qualitatifs;Conv ent/j;134,0
+G3 — Spécialistes sortants;Conv ent/j;58,0
+G4 — Actifs standard;Conv ent/j;90,0
+G1 — Relanceurs intensifs;App sort/j;280,0
+G2 — Actifs qualitatifs;App sort/j;86,0
+G3 — Spécialistes sortants;App sort/j;148,0
+G4 — Actifs standard;App sort/j;89,0
+G1 — Relanceurs intensifs;Conv sort/j;423,0
+G2 — Actifs qualitatifs;Conv sort/j;58,0
+G3 — Spécialistes sortants;Conv sort/j;287,0
+G4 — Actifs standard;Conv sort/j;61,0
+G1 — Relanceurs intensifs;Conv tot/j;176,0
+G2 — Actifs qualitatifs;Conv tot/j;124,0
+G3 — Spécialistes sortants;Conv tot/j;87,0
+G4 — Actifs standard;Conv tot/j;87,0
+G1 — Relanceurs intensifs;Retrait/j;795,0
+G2 — Actifs qualitatifs;Retrait/j;117,0
+G3 — Spécialistes sortants;Retrait/j;80,0
+G4 — Actifs standard;Retrait/j;76,0
+G1 — Relanceurs intensifs;TMC ent;113,0
+G2 — Actifs qualitatifs;TMC ent;110,0
+G3 — Spécialistes sortants;TMC ent;74,0
+G4 — Actifs standard;TMC ent;101,0
+G1 — Relanceurs intensifs;App pris/h;101,0
+G2 — Actifs qualitatifs;App pris/h;101,0
+G3 — Spécialistes sortants;App pris/h;88,0
+G4 — Actifs standard;App pris/h;103,0
+G1 — Relanceurs intensifs;Tx décroché;96,0
+G2 — Actifs qualitatifs;Tx décroché;101,0
+G3 — Spécialistes sortants;Tx décroché;98,0
+G4 — Actifs standard;Tx décroché;100,0
+G1 — Relanceurs intensifs;Part conv/dispo;139,0
+G2 — Actifs qualitatifs;Part conv/dispo;103,0
+G3 — Spécialistes sortants;Part conv/dispo;90,0
+G4 — Actifs standard;Part conv/dispo;100,0
+G1 — Relanceurs intensifs;Part sort/conv;262,0
+G2 — Actifs qualitatifs;Part sort/conv;45,0
+G3 — Spécialistes sortants;Part sort/conv;306,0
+G4 — Actifs standard;Part sort/conv;68,0
