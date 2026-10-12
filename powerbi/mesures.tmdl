@@ -10,7 +10,7 @@
 		measure 'Score moyen' = AVERAGE(conseillers_trimestres[score])
 			formatString: 0.00
 
-		measure '% HML' = DIVIDE(CALCULATE(COUNTROWS(conseillers_trimestres), conseillers_trimestres[metier] = "HML"), COUNTROWS(conseillers_trimestres))
+		measure '% HML' = DIVIDE(CALCULATE(COUNTROWS(conseillers_trimestres), KEEPFILTERS(conseillers_trimestres[metier] = "HML")), COUNTROWS(conseillers_trimestres))
 			formatString: 0.0%
 
 		measure 'Augmentations par jour' = AVERAGE(conseillers_trimestres[aug_fl_nb_j])

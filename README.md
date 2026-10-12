@@ -26,6 +26,18 @@ L'étude d'origine a été faite en R. Ce dépôt la refait en Python, de bout e
 
 **Recommandation principale** : former en priorité les spécialistes sortants à mieux convertir sur les appels entrants. Pour les augmentations de réserves, la vente se fait surtout quand le client appelle lui-même.
 
+## Le tableau de bord Power BI
+
+Trois pages, construites sur les tables du dossier `sorties/` :
+
+1. **Profils** : part de bons vendeurs par groupe, effectifs par groupe et par métier, indices des 13 indicateurs, chiffres clés et filtre HML / NHML.
+2. **Score de bon vendeur** : score moyen par groupe et odds ratios du modèle.
+3. **Suivi trimestriel** : part de bons vendeurs par trimestre et par groupe, et passages d'un groupe à l'autre d'un trimestre au suivant.
+
+![Page Profils](powerbi/captures/1_profils.png)
+
+Les trois pages sont aussi en PDF : `powerbi/cofitypotel.pdf`.
+
 ## Ce qui change par rapport aux rapports d'origine
 
 En refaisant l'étude, deux problèmes de la version R sont apparus et ont été corrigés :
@@ -42,7 +54,7 @@ Le score lui-même change peu (AUC de 0,811 dans le rapport, 0,818 ici). Les gro
 | `notebooks/cofitypotel.ipynb` | Toute l'analyse, exécutée et commentée : préparation, typologie, analyse discriminante, migrations, ventes par groupe, score, croisement. |
 | `figures/` | Les graphiques principaux en PNG. |
 | `sorties/` | Les tables produites par le notebook (codes des conseillers anonymisés), lues par Power BI. |
-| `powerbi/` | Le tableau de bord `cofitypotel.pbix`, les requêtes Power Query et les mesures DAX. |
+| `powerbi/` | Le tableau de bord `cofitypotel.pbix` (3 pages : profils, score de bon vendeur, suivi trimestriel), ses captures, les requêtes Power Query et les mesures DAX. |
 | `donnees/` | Vide : le fichier du cours n'est pas publié (voir `donnees/LISEZMOI.md`). |
 
 ## Relancer l'analyse

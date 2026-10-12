@@ -29,7 +29,7 @@ Score moyen = AVERAGE ( conseillers_trimestres[score] )
 
 % HML =
 DIVIDE (
-    CALCULATE ( [Observations], conseillers_trimestres[metier] = "HML" ),
+    CALCULATE ( [Observations], KEEPFILTERS ( conseillers_trimestres[metier] = "HML" ) ),
     [Observations]
 )
 
@@ -45,4 +45,7 @@ Appels pris par jour = AVERAGE ( conseillers_trimestres[appels_pris_j_w] )
 ## Les pages
 
 1. **Profils** : part de bons vendeurs par groupe, nombre d'observations par groupe et par métier, indices base 100 des 13 indicateurs (matrice colorée), chiffres clés et segment HML / NHML.
-2. **Score et suivi** : odds ratios du modèle, score moyen par groupe, part de bons vendeurs par trimestre et par groupe, matrice des passages d'un groupe à l'autre.
+2. **Score de bon vendeur** : score moyen par groupe et odds ratios des quatre variables du modèle.
+3. **Suivi trimestriel** : part de bons vendeurs par trimestre et par groupe, et matrice des passages d'un groupe à l'autre d'un trimestre au suivant.
+
+Des captures des trois pages sont dans `captures/`.
