@@ -1,6 +1,6 @@
-# Données du cours : non publiées
+# Données du cours : seul le fichier source est versionné
 donnees/*
-!donnees/LISEZMOI.md
+!donnees/Donnees_Cofitypotel.xls
 
 # Fichiers de travail
 .ipynb_checkpoints/

@@ -55,12 +55,11 @@ Le score lui-même change peu (AUC de 0,811 dans le rapport, 0,818 ici). Les gro
 | `figures/` | Les graphiques principaux en PNG. |
 | `sorties/` | Les tables produites par le notebook (codes des conseillers anonymisés), lues par Power BI. |
 | `powerbi/` | Le tableau de bord `cofitypotel.pbix` (3 pages : profils, score de bon vendeur, suivi trimestriel), ses captures, les requêtes Power Query et les mesures DAX. |
-| `donnees/` | Vide : le fichier du cours n'est pas publié (voir `donnees/LISEZMOI.md`). |
+| `donnees/` | Le fichier source du cours, `Donnees_Cofitypotel.xls` (2 502 lignes mensuelles). |
 
 ## Relancer l'analyse
 
-1. Placer `Donnees_Cofitypotel.xls` dans `donnees/`.
-2. Installer les bibliothèques et exécuter le notebook :
+Installer les bibliothèques et exécuter le notebook (le fichier de données est déjà dans `donnees/`) :
 
 ```bash
 pip install -r requirements.txt
